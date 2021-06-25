@@ -11,9 +11,9 @@ const EuropeanCalendar = () => {
 		<div>
 			{data.map((item) => {
 				return (
-					<label className='flex items-center mt-3'>
+					<label className='flex  items-center mt-3'>
 						<input
-							onClick={() => setResult(result.concat({ selected: item.value }))}
+							onClick={() => console.log(...result.concat({ selected: item.value }))}
 							type='checkbox'
 							class='form-checkbox h-5 w-5 text-gray-600'
 						/>

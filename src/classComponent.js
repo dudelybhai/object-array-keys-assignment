@@ -15,7 +15,7 @@ export default class CanadianCalendar extends React.Component {
 			<div>
 				{data.map((item) => {
 					return (
-						<label className='flex items-center mt-3'>
+						<label className='flex  items-center mt-3'>
 							<input
 								onClick={() =>
 									this.setState({

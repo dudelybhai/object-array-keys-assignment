@@ -27,7 +27,7 @@ export const canadianData = {
 		{
 			value: 32,
 			checked: false,
-			title: () => false,
+			title: "Friday",
 			weekDay: 5,
 		},
 		{

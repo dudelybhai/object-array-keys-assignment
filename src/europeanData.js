@@ -39,7 +39,7 @@ export const europeanData = {
 		{
 			value: 64,
 			checked: false,
-			title: () => false,
+			title: "Saturday",
 			weekDay: 6,
 		},
 	],
